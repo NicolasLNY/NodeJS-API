@@ -33,6 +33,10 @@ app.use((req, res, next) => {
 app.use('/session', routes.session);
 app.use('/users', routes.user);
 app.use('/messages', routes.message);
+app.use('/informations',routes.information);
+app.use('/task',routes.task);
+app.use('/batterie',routes.batterie);
+app.use('/alertes',routes.alertes);
 
 // * Start * //
 
